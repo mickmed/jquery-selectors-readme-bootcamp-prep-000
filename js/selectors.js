@@ -18,6 +18,6 @@ function divSelector(){
 }
 
 function firstListItem(){
-  $('ul:first-child')
+  return $('ul:first-child')
   
 }
