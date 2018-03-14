@@ -7,4 +7,11 @@ function paragraphSelector(){
 
 function lastImageSelector(){
   
+  var i = $('img:last')
+  return i;
+}
+
+function ninjaBabySelector(){
+  $('img')
+  
 }
