@@ -6,12 +6,18 @@ function paragraphSelector(){
 
 
 function lastImageSelector(){
-  
-  var i = $('img:last')
-  return i;
+  return $('img:last')
 }
 
 function ninjaBabySelector(){
-  $('img #baby-ninja')
+ return $('img #baby-ninja')
+}
+
+function divSelector(){
+  return $('div .pics');
+}
+
+function firstListItem(){
+  $('ul #pic-list:first-child')
   
 }
